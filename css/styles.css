@@ -1,54 +1,28 @@
+/* Añadir estos estilos */
 .game-container {
-    max-width: 800px;
-    margin: 20px auto;
-    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+    padding: 20px;
+    border-radius: 15px;
 }
 
-.reference-grid {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    gap: 15px;
-    margin: 20px 0;
+.key-btn {
+    background-color: #ffd700;
+    border: 3px solid #ff8c00;
+    border-radius: 10px;
+    font-size: 1.5em;
 }
 
-.reference-item {
-    text-align: center;
-}
-
-.reference-image {
-    height: 60px;
-    margin-bottom: 5px;
-}
-
-.current-word {
-    display: flex;
-    gap: 10px;
-    margin: 20px 0;
-    justify-content: center;
+.special-btn {
+    background-color: #98fb98;
+    border: 3px solid #32cd32;
+    border-radius: 10px;
+    font-size: 1.2em;
 }
 
 .word-image {
-    height: 80px;
-}
-
-.keyboard {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    gap: 5px;
-    margin: 20px 0;
-}
-
-.input-display {
-    font-size: 2em;
-    letter-spacing: 10px;
-    text-align: center;
-    margin: 20px 0;
-}
-
-button {
+    height: 100px;
     padding: 10px;
-    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
-
-.correct { background-color: #90EE90; }
-.incorrect { background-color: #FFB6C1; }

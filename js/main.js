@@ -1,8 +1,8 @@
-// Initialize Game
-function init() {
+async function init() {
+    await cargarPalabras();
     createReferenceGrid();
     createKeyboard();
-    showNewWord();
+    mostrarNuevaPalabra();
     updateTimer();
 }
 

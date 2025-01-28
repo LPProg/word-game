@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Word Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Decipher the Word!</h1>
+        
+        <!-- Reference Section -->
+        <div class="reference-grid" id="referenceGrid"></div>
+
+        <!-- Current Word Display -->
+        <div class="current-word" id="currentWord"></div>
+
+        <!-- Input Display -->
+        <div class="input-display" id="inputDisplay"></div>
+
+        <!-- Virtual Keyboard -->
+        <div class="keyboard" id="keyboard"></div>
+
+        <!-- Game Info -->
+        <div>
+            <p>Score: <span id="score">0</span></p>
+            <p>Time: <span id="timer">01:30</span></p>
+        </div>
+    </div>
+
+    <script src="js/config.js"></script>
+    <script src="js/dom.js"></script>
+    <script src="js/game.js"></script>
+    <script src="js/keyboard.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
